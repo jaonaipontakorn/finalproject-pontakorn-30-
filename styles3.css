@@ -1,0 +1,317 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product_name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.product_img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .star{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .product_review{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .review_text{
+    margin: 0;
+    padding: 0;
+    color: cornflowerblue;
+  }
+  
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #f7f7f7;
+    justify-content: center;
+    
+  }
+  
+  .product_card{
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .product_btn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .product_btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px;
+    justify-content: space-between;
+  }
+  
+  .card {
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    padding: 24px;
+    background-color: #fff;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: none;
+  }
+  
+  .card:nth-child(-n+3) {
+    margin-top: 48px;
+  }
+  
+  .card img {
+    border: none;
+  }
+  
+  .footer {
+    background: #eee;
+    color: darkmagenta;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: auto;
+  }
+header {
+    background-color: #fff;
+
+    padding:0;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+.logo {
+    margin-right: 20px;
+    margin: 0;
+    text-align: left;
+    align-self: auto;
+    display: flex;
+    
+  
+    
+}
+
+nav {
+    float: right;
+    align-items: center;
+
+}
+nav h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1000px;
+    background-color: #eee;
+    background-image: url(https://cdn.experimentalperfumeclub.com/wp-content/uploads/2024/04/Untitled-design-53.png) ;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.menu {
+    padding: 50px 0;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    margin-right: 50px;
+}
+
+.footer-section h4 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+.ddd{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+    flex-direction: column;
+}
+.special{
+    
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+#hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.product_price{
+    color: crimson;
+}
+
+h3{
+   text-align: center;
+    color: white;
+    position: relative;
+    
+}
+p{
+    text-align: center;
+    color: white;
+    position: relative;
+    
+}
+a{
+    text-decoration: none;
+}
